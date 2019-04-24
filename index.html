@@ -319,7 +319,7 @@
 <div class="os-animation" data-animation="fadeInUp">
 <div class="narrow text-center">
 	<div class="col-12">
-		<h3 class="heading">Contact Us</h3>
+		<h3 class="heading">Get a Free Quote!</h3>
 		<div class="heading-underline"></div>
 		<p class="lead">Contact us using the form below and we'll immediately start working on your quote. Please remember to provide us with basic details about your project. We will follow up with you for specifics within 24 hours (typically 1-2 hours on weekdays).</p>
 		<br><br>
@@ -366,11 +366,12 @@
 					<input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email." required="required">
 				</div>
 				<div class="form-group">
-					<input id="form_phone" type="phone" name="phone" class="form-control" placeholder="Phone number (optional)" required="False">
+					<input id="form_phone" type="phone" name="phone" class="form-control" placeholder="Phone number (optional)">
 				</div>
 				<div class="form-group">
 					<select class="form-control" id="service_select" type="select" name="service" required="required">
-					<option>Website Development</option>
+						<option value="" disabled selected>Select a service</option>
+						<option>Website Development</option>
 						<option>Logo Design</option>
 						<option>Search Engine Optimization</option>
 						<option>Google Adwords Campaign</option>
@@ -378,10 +379,11 @@
 					</select>
 				</div>
 				<div class="form-group">
-						<select class="form-control" id="contact_select" type="select" name="method" required="optional">
-						<option>I may be contacted by phone or email</option>
-							<option>I prefer to be contacted by phone</option>
-							<option>I prefer to be contacted by email</option>
+						<select class="form-control" id="contact_select" type="select" name="method" required="required">
+							<option value="" disabled selected>How would you like us to contact you?</option>
+							<option>Phone or email</option>
+							<option>Phone only</option>
+							<option>Email only</option>
 						</select>
 					</div>
 
