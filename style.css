@@ -382,6 +382,12 @@ hr.socket {
   width: 100%;
 }
 
+#username {
+  visibility: hidden;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 /*============= TOP SCROLL =============*/
 
 .top-scroll svg.svg-inline--fa {
@@ -523,6 +529,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 .alignleft {
   text-align: left;
+}
+
+.aligncenter {
+  text-align: center;
 }
 
 .link:hover { 
