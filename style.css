@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 body {
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #505962;
 }
 
@@ -27,7 +27,7 @@ body {
   padding-top: 0.1rem;
   text-transform: uppercase;
   font-size: 0.9rem;
-  font-weight: 750;
+  font-weight: 585;
   letter-spacing: .1rem;
   transition: background-color .5s ease 0s;
 }
@@ -68,7 +68,7 @@ body {
 }
 .caption h1 {
   color: rgb(255, 255, 255);
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: .3rem;
@@ -77,9 +77,9 @@ body {
 }
 .caption h3 {
   color: #F10058;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 550;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 2rem;
 }
@@ -161,7 +161,7 @@ h3.heading {
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
 #fixed {
-  background-image: url('img/fixed/apple.png');
+  background-image: url('img/fixed/website-design.png');
   z-index: -1;
 }
 .dark {
@@ -245,52 +245,6 @@ img.example-image {
 
 /*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
 
-#fixed-2 {
-  background-image: url('img/fixed/office.png');
-  z-index: -1;
-}
-.light {
-  background-color: rgba( 255, 255, 255, .85);
-  padding: 3rem 2rem 2rem;
-  z-index: 1000!important;
-}
-.card {
-  border-radius: 0;
-  border: .1rem solid rgba(0, 0, 0, .075);
-  box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
-  margin: 0 1rem;
-  transition: transform .4s ease;
-}
-.card-img-top {
-  border-radius: 0;
-}
-.card:hover {
-  transform: scale(.95);
-}
-.card h4 {
-  font-weight: 700;
-}
-.card h5 {
-  color: #F10058;
-}
-.card p {
-  border-top: .1rem solid rgba(0, 0, 0, .1);
-  border-bottom: .1rem solid rgba(0, 0, 0, .1);
-  padding: 1rem;
-  margin: 1rem 0 1.5rem;
-}
-.card svg.svg-inline--fa {
-  color: #F10058!important;
-  font-size: 1.3rem;
-  width: 2rem;
-}
-.card svg.svg-inline--fa:hover {
-  color: #6c757d!important;
-}
-.owl-dot.active span,
-.owl-dot:hover span {
-  background: #F10058!important;
-}
 
 /*============= SKILLS SECTION =============*/
 
@@ -306,7 +260,7 @@ img.example-image {
   font-weight: 700;
 }
 
-/*============= CERT SECTION =============*/
+/*============= CERTS SECTION =============*/
 
 .clients img {
   width: 100%;
@@ -328,7 +282,7 @@ blockquote .svg-inline--fa {
 /*============= CONTACT SECTION =============*/
 
 footer {
-  background: url('img/footer/footer.png') no-repeat;
+  background: url('img/footer/contact-free-quote.png') no-repeat;
   /*background-color: #40474e;*/
   background-size: cover;
   color: white;
@@ -449,13 +403,13 @@ a.top-scroll:hover {
     font-size: 1.8rem;
   }
   #fixed {
-    background-image: url('img/fixed/apple-mobile.png');
+    background-image: url('img/fixed/website-design-mobile.png');
   }
   #fixed-2 {
     background-image: url('img/fixed/office-mobile.png');
   }
   footer {
-    background: url('img/footer/footer-mobile.png') no-repeat;
+    background: url('img/footer/contact-free-quote-mobile.png') no-repeat;
   }
   .clients img {
     max-width: 50%;
@@ -538,3 +492,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .link:hover { 
   color: #F10058; 
 } /* CSS link hover (green) */
+
+/* #services {
+
+} */
